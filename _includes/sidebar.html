@@ -7,4 +7,29 @@
         <h5><span>Your Ad Here</span></h5>
         <img src="{{site.baseurl}}/assets/images/ad.png">
     </div>
+
+<!--Newly added-->
+
+
+    <div>
+        {% assign categories = site.categories %}
+            <ul>
+            {% for category in categories %}
+                <li>
+                <a href="#{{ category | first }}">{{ category | first }}</a> - {{ category | last | size }}
+                </li>
+            {% endfor %}
+            </ul>
+
+        {% for category in categories %}
+        <h2 id="{{ category | first }}">{{ category | first }}</h2>
+        <ul>
+            {% for post in category.last %}
+            <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+            {% endfor %}
+        </ul>
+        {% endfor %}
+
+    </div>
+    
 </div>

@@ -41,6 +41,19 @@ authors:
     twitter: https://twitter.com
     description: ""
 
+
+collections:
+  engineering:
+    output: true
+    permalink: /engineering/:path/
+  interview:
+    output: true
+    permalink: /interview/:path/
+  design:
+    output: true
+    permalink: /design/:path/
+
+
 # Social
 social:
   linkedin: https://www.linkedin.com/company/backend-byte
