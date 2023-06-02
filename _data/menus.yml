@@ -33,18 +33,15 @@ footermenu:
 - title: Privacy Policy
   url: "privacy-policy/"
 
-- title: Cookies Policy
-  url: "cookies/"
-
 - title: Sitemap
   url: "sitemap/"
 
-- title: Contact
-  url: "contact/"
+- title: About Us
+  url: "about/"
 
 - title: Contact
   url: "contact/"
 
-- title: Download
-  url: https://bootstrapstarter.com/template-affiliates-bootstrap-jekyll/  
-  external: true
+# - title: Download
+#   url: https://bootstrapstarter.com/template-affiliates-bootstrap-jekyll/  
+#   external: true
