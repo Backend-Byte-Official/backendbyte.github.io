@@ -51,7 +51,7 @@ collections:
     permalink: /interview/:path/
   design:
     output: true
-    permalink: /design/:path/
+    permalink: /:design/:path/
 
 
 # Social
