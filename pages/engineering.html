@@ -6,9 +6,10 @@ collection: engineering
 ---
 
 
-{% for category in site.categories.engineering %}
+{% for category in site.categories %}
 <h4 class="mt-5 mb-4 pb-2 border-bottom" id="{{ category[0] | replace: " ","-" }}"><span class="text-capitalize small font-weight-bold">In "{{ category[0] }}"</span></h4>
 <div class="row">
+    {% if category == 'engineering' %}
 {% assign pages_list = category[1] %}
 {% for post in pages_list %}
 {% if post.title != null %}
@@ -21,6 +22,7 @@ collection: engineering
 {% endfor %}
 {% assign pages_list = nil %}
 {% assign group = nil %}
+    {% endif %}
 </div>
 {% endfor %}
 
