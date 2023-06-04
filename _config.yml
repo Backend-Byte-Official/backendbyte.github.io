@@ -1,7 +1,7 @@
 title: "Backend Byte"
 email: backendbyte.official@gmail.com
 timezone: UTC
-baseurl: "https://backendbyte.com"
+baseurl: ""
 permalink: "/:title/"
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/favicon.ico'
