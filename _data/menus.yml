@@ -10,14 +10,14 @@ topmenu:
 - title: Design
   url: "design/"
 
-- title: Interview
+- title: Networking
+  url: "networking/"
+
+- title: Programming
+  url: "programming/"
+  
+ - title: Interview
   url: "interview/"
-
-- title: About
-  url: "about/"
-
-- title: Contact
-  url: "contact/"
 
 # - title: Get this theme  
 #   url: https://bootstrapstarter.com/template-affiliates-bootstrap-jekyll/
