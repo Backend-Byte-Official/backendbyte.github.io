@@ -1,6 +1,6 @@
 title: "Backend Byte"
 email: backendbyte.official@gmail.com
-timezone: UTC
+timezone: Asia/Dhaka
 baseurl: "/backendbyte.github.io"
 permalink: "/:title/"
 logo: 'assets/images/logo.png'
@@ -19,23 +19,15 @@ kramdown:
     disable: true
 sass:
   sass_dir: _sass
-  style: :compressed
+  style: compressed
 ganalytics: UA-113961478-1
 
 # Authors
 authors:
-  sal:
+  backendbyte:
     name: backendbyte
     display_name: backendbyte
     avatar: 'assets/images/sal.png'
-    email: backendbyte.official@gmail.com
-    web: https://www.backendbyte.com
-    twitter: https://twitter.com
-    description: ""
-  john:
-    name: backendbyte
-    display_name: backendbyte
-    avatar: 'assets/images/john.png'
     email: backendbyte.official@gmail.com
     web: https://www.backendbyte.com
     twitter: https://twitter.com
