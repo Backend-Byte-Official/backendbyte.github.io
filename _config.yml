@@ -5,9 +5,9 @@ header-img: img/post-bg-desk.jpg
 email: backendbyte.official@gmail.com
 description: "Every failure is leading towards success."
 keyword: "Backend Byte"
-url: "http://backendbyte.com"          # your host, for absolute URL
-baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
-github_repo: "https://github.com/Backend-Byte-Official/backendbyte.github.io.git" # you code repository
+url: "http://backendbyte.com"
+baseurl: ""
+github_repo: "https://github.com/Backend-Byte-Official/backendbyte.github.io.git"
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
