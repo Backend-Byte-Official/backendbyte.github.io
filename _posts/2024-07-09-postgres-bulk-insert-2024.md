@@ -2,16 +2,17 @@
 layout:     post
 title:      "Optimizing PostgreSQL for Large-Scale Data Insertions: From INSERT to COPY and Beyond"
 subtitle:    "\"Optimizing PostgreSQL for Large-Scale Data Insertion\""
-date:       2024-07-09
+date:       2024-07-9
 author:     Backend Byte
 header-img: img/post-bg-2015.jpg
 catalog: true
 tags:
-    - Hello
+    - postgres
+featured: true
 ---
 
 
-![Hello from Backend Byte](/img/postgresql-copy-cmd.png)
+![Optimizing PostgreSQL for Large-Scale Data Insertion](/img/postgresql-copy-cmd.png)
 
 When dealing with massive datasets in PostgreSQL, efficiency becomes crucial. Recently, I faced a challenge while inserting 20 million records into a database while working on one of my hobby projects. This experience led me to explore various optimization techniques, from query optimization to server configuration tweaks.
 
