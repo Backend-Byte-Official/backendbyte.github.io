@@ -2,7 +2,7 @@
 layout:     post
 title:      "Optimizing PostgreSQL for Large-Scale Data Insertions: From INSERT to COPY and Beyond"
 subtitle:    "\"Optimizing PostgreSQL for Large-Scale Data Insertion\""
-date:       2024-07-9
+date:       2024-07-08
 author:     Backend Byte
 header-img: img/post-bg-2015.jpg
 catalog: true
