@@ -14,10 +14,10 @@ tags:
 
 Go's net/http package is a powerful and versatile library for building HTTP clients and servers. It provides a robust set of tools for handling HTTP requests and responses, making it an essential component for web development in Go. This article will dive deep into the net/http package, exploring its core concepts, key features, and practical applications.
 
-1. Overview of the net/http Package:
+## Overview of the net/http Package:
 The net/http package is part of Go's standard library and offers a high-level interface for HTTP client and server implementations. It abstracts away many of the complexities involved in network communication, allowing developers to focus on application logic rather than low-level network details.
 
-Key components of the net/http package include:
+## Key components of the net/http package include:
 - HTTP client functionality
 - HTTP server functionality
 - Request and response handling
@@ -26,7 +26,7 @@ Key components of the net/http package include:
 - File serving
 - HTTPS support
 
-2. HTTP Client:
+### HTTP Client:
 The net/http package provides a default HTTP client that can be used to send HTTP requests to servers. Here's a basic example of how to use the HTTP client:
 
 ```go
@@ -74,7 +74,7 @@ func postExample() {
 }
 ```
 
-3. HTTP Server:
+### HTTP Server:
 Creating an HTTP server with the net/http package is straightforward. Here's a basic example:
 
 ```go
@@ -98,7 +98,7 @@ func main() {
 
 This example sets up a simple HTTP server that responds with "Hello, World!" to all requests. The http.HandleFunc() function registers a handler function for a specific path, and http.ListenAndServe() starts the server on the specified port.
 
-4. Request and Response Handling:
+### Request and Response Handling:
 The net/http package provides types for handling HTTP requests and responses:
 
 - http.Request: Represents an HTTP request received by a server or to be sent by a client.
@@ -130,7 +130,7 @@ func userHandler(w http.ResponseWriter, r *http.Request) {
 
 This handler checks the HTTP method, parses form data, and sends a JSON response with appropriate headers and status code.
 
-5. URL Parsing and Manipulation:
+### URL Parsing and Manipulation:
 The net/url package, which is closely related to net/http, provides functionality for URL parsing and manipulation. Here's an example:
 
 ```go
@@ -159,7 +159,7 @@ func urlExample() {
 
 This example demonstrates parsing a URL, accessing its components, and modifying it.
 
-6. Cookie Management:
+### Cookie Management:
 The net/http package provides support for handling HTTP cookies. Here's an example of setting and reading cookies:
 
 ```go
@@ -190,7 +190,7 @@ func cookieHandler(w http.ResponseWriter, r *http.Request) {
 
 This handler sets a session cookie and then reads it back from the request.
 
-7. File Serving:
+### File Serving:
 The net/http package makes it easy to serve static files. Here's an example:
 
 ```go
@@ -205,7 +205,7 @@ func main() {
 
 This code sets up a file server to serve files from the "./static" directory under the "/static/" URL path.
 
-8. HTTPS Support:
+### HTTPS Support:
 The net/http package also supports HTTPS. Here's how to start an HTTPS server:
 
 ```go
@@ -221,7 +221,7 @@ func main() {
 
 This example starts an HTTPS server using a certificate and private key file.
 
-9. Middleware:
+### Middleware:
 Middleware functions can be used to wrap HTTP handlers to add additional functionality. Here's an example of a simple logging middleware:
 
 ```go
@@ -241,7 +241,7 @@ func main() {
 
 This middleware logs the request method, path, and duration for each request.
 
-10. Custom Transport and Client:
+### Custom Transport and Client:
 For more advanced use cases, you can create custom HTTP transports and clients:
 
 ```go
@@ -270,9 +270,7 @@ func customClientExample() {
 
 This example creates a custom HTTP client with a configured transport, allowing fine-grained control over connection pooling, timeouts, and other settings.
 
-Conclusion:
+## Conclusion:
 The net/http package in Go provides a powerful and flexible foundation for building HTTP clients and servers. Its simplicity and efficiency make it an excellent choice for web development in Go. This article has covered the core concepts and features of the package, including client and server implementations, request and response handling, URL manipulation, cookie management, file serving, and HTTPS support.
 
 By leveraging the net/http package, developers can create robust and scalable web applications with ease. Whether you're building a simple API client or a complex web server, the net/http package offers the tools you need to handle HTTP communication effectively in your Go projects.
-
-As you continue to work with the net/http package, you'll discover even more advanced features and techniques that can help you build sophisticated web applications. Remember to consult the official Go documentation for the most up-to-date and detailed information on the net/http package and its related components.
