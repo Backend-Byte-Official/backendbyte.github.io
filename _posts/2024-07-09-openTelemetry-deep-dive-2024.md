@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "OpenTelemetry Demystified: From Concept to Implementation""
+title:      "OpenTelemetry Demystified: From Concept to Implementation"
 subtitle:    "\"A Comprehensive Guide to Mastering Distributed Tracing, Metrics, and Observability in Modern Software Systems\""
 date:       2024-07-09
 author:     Backend Byte
